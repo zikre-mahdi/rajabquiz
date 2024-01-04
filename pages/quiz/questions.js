@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function quesions({ data }) {
+export default function Quesions({ data }) {
   console.log(data);
   const [answers, setAnswers] = useState(
     data.map((item) => ({ ...item, checkedOption: "none" }))
