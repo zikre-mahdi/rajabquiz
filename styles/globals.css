@@ -24,3 +24,6 @@ a {
     background: black;
   }
 }
+
+.correct { background-color: aquamarine;}
+.incorrect { background-color: coral;}
